@@ -1,0 +1,4 @@
+app:
+  name: "Card Microservice"
+  version: "v1"
+  level: "Production"

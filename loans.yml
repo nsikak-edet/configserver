@@ -1,0 +1,4 @@
+app:
+  name: "Loans Microservice"
+  version: "v1"
+  level: "Test (Default)"
