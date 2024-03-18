@@ -1,4 +1,4 @@
 app:
-  name: "Account Microservice - Monday-Update"
+  name: "Account Microservice - Update"
   version: "v1"
   level: "Production"
