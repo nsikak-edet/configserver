@@ -2,3 +2,9 @@ app:
   name: "Loan Microservice - Changed"
   version: "v1"
   level: "Production"
+
+spring:
+  datasource:
+    url: jdbc:mysql://loans-db:3306/loans-db
+    username: root
+    password: password
