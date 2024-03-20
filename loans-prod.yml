@@ -5,7 +5,7 @@ app:
   level: "Production"
 
 server:
-  port: 9090
+  port: 9091
   servlet:
     context-path: /api/v1
     
