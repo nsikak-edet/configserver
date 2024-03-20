@@ -2,3 +2,9 @@ app:
   name: "Account Microservice - Update"
   version: "v1"
   level: "Production"
+  
+spring:
+  datasource:
+    url: jdbc:mysql://account-db:3306/account_db
+    username: root
+    password: password
