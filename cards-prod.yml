@@ -2,3 +2,9 @@ app:
   name: "Card Microservice - Update"
   version: "v1"
   level: "Production"
+
+spring:
+  datasource:
+    url: jdbc:mysql://cards-db:3306/cards-db
+    username: root
+    password: password
