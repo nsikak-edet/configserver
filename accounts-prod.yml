@@ -8,3 +8,9 @@ spring:
     url: jdbc:mysql://accounts-db:3306/accounts-db
     username: root
     password: password
+    initialization-mode: always
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
