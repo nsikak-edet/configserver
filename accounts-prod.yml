@@ -37,7 +37,8 @@ management:
   endpoint:
     info:
       enabled: true
-  endpoint:
+    shutdown:
+      enabled: true
     health:
       probes:
         enabled: true
