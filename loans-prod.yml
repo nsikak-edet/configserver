@@ -8,6 +8,15 @@ server:
   port: 9091
   servlet:
     context-path: /api/v1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka-server:7373/eureka
     
 spring:
   datasource:
@@ -26,8 +35,11 @@ management:
     web:
       exposure:
         include: "*"
-
   endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
     health:
       probes:
         enabled: true
@@ -37,4 +49,8 @@ management:
       enabled: true
     readinessstate:
       enabled: true
+
+endpoint:
+  shutdown:
+    enabled: true
 
