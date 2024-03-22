@@ -10,19 +10,4 @@ eureka:
     service-url:
       defaultZone: http://eureka-server:7373/eureka
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
-  endpoint:
-    health:
-      probes:
-        enabled: true
-
-  health:
-    livenessstate:
-      enabled: true
-    readinessstate:
-      enabled: true
