@@ -28,10 +28,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-      
-endpoints:
-  shutdown:
-    enabled: true
+    
 
 info:
   app:
