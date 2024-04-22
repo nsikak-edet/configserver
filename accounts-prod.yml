@@ -45,7 +45,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-    
+
+logging:
+  pattern:
+    console: "%5p [%X{spring.application.name},%X{traceId},%X{spanId}]"
 
 info:
   app:
