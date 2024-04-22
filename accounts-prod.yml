@@ -48,7 +48,7 @@ spring:
 
 logging:
   pattern:
-    console: "%5p [%X{spring.application.name},%X{traceId},%X{spanId}]"
+    console: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"
 
 info:
   app:
