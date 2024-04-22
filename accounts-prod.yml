@@ -28,23 +28,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
-  endpoint:
-    health:
-      probes:
-        enabled: true
-
-  health:
-    livenessstate:
-      enabled: true
-    readinessstate:
-      enabled: true
       
 endpoints:
   shutdown:
