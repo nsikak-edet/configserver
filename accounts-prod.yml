@@ -24,6 +24,10 @@ management:
     health:
       probes:
         enabled: true
+
+logging:
+  pattern:
+    level: "%5p [${spring.application.name},%mdc{trace_id},%mdc{span_id}]"
         
 eureka:
   instance:
