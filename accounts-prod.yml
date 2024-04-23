@@ -27,7 +27,7 @@ management:
 
 logging:
   pattern:
-    level: "%5p [${spring.application.name},%mdc{trace_id},%mdc{span_id}]"
+    level: "%5p [${spring.application.name},Trace ID:- %mdc{trace_id},Span ID:- %mdc{span_id}]"
         
 eureka:
   instance:
