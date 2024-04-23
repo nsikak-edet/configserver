@@ -46,9 +46,6 @@ spring:
     hibernate:
       ddl-auto: update
 
-logging:
-  pattern:
-    level: "%5p [${spring.application.name},%mdc{trace_id},%mdc{span_id}]"
 
 info:
   app:
