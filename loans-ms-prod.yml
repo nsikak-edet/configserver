@@ -20,9 +20,9 @@ eureka:
     
 spring:
   datasource:
-    url: jdbc:mysql://loans-db:3306/loans-db
+    url: jdbc:mysql://prod-loan-mysql:3308/loans_db
     username: root
-    password: password
+    password: XKLS48rxs45Sx
     initialization-mode: always
 
   jpa:
