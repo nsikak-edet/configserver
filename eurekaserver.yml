@@ -1,4 +1,6 @@
-
+server:
+  port: 7171
+  
 eureka:
   client:
     fetch-registry: false
