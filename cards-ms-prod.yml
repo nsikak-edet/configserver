@@ -22,7 +22,7 @@ spring:
   datasource:
     url: jdbc:mysql://prod-card-mysql:3307/cards_db
     username: root
-    password: JSPLYrxs45Sx 
+    password: JSPLYrxs45Sx
     initialization-mode: always
 
   jpa:
