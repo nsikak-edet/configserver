@@ -7,7 +7,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 
   instance:
-    hostname: localhost
+    hostname: eureka-server
 
 management:
   endpoints:
