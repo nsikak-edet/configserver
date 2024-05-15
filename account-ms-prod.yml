@@ -4,7 +4,6 @@ app:
   level: "Production"
 
 server:
-  port: 8081
   servlet:
     context-path: /api/v1
     
